@@ -251,3 +251,7 @@ section::after {
 .text-right {
   text-align: right;
 }
+
+.education-details h3 {
+  color: aqua;
+}
