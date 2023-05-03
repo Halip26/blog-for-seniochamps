@@ -92,6 +92,7 @@ section::after {
   width: 80%;
   padding: 20px;
   margin: auto;
+  font-size: 18px;
 }
 
 /*skill section*/
@@ -138,8 +139,43 @@ section::after {
   width: 30%;
 }
 
-/*favourites section*/
+/*percentage for skills*/
+.fifty-percent {
+  height: inherit;
+  width: 50%;
+}
 
+.eighty-five-percent {
+  height: inherit;
+  width: 85%;
+}
+
+.eighty-percent {
+  height: inherit;
+  width: 80%;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.light-purple {
+  background-color: purple;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+.teal {
+  background-color: teal;
+}
+
+/*favourites section*/
 .col-2 {
   float: left;
   width: 45%;
@@ -218,38 +254,6 @@ section::after {
   background-color: grey;
   opacity: 0.5;
   color: white;
-}
-
-/*percentage for skills*/
-.fifty-percent {
-  height: inherit;
-  width: 50%;
-}
-
-.eighty-five-percent {
-  height: inherit;
-  width: 85%;
-}
-
-.eighty-percent {
-  height: inherit;
-  width: 80%;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.light-purple {
-  background-color: purple;
-}
-
-.teal {
-  background-color: teal;
 }
 
 .text-right {
