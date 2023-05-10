@@ -203,6 +203,10 @@ section::after {
   height: 500px;
 }
 
+.education-details h3 {
+  color: aqua;
+}
+
 /*portfolio section*/
 #portfolio .col-3 {
   width: 31.7%;
@@ -257,8 +261,4 @@ section::after {
 
 .text-right {
   text-align: right;
-}
-
-.education-details h3 {
-  color: aqua;
 }
