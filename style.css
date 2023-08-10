@@ -56,9 +56,9 @@ body {
 /* About Section */
 section {
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 #myPhoto img {
@@ -96,18 +96,16 @@ section::after {
   font-size: 18px;
 }
 
-/*skill section*/
+/* skills section  */
 #skills {
   width: 100%;
 }
 
-/* skills parent container */
+/* skills parent container  */
 .skills-display {
   padding: 5px;
   margin-bottom: 30px;
 }
-
-/* making each of six child div as progress bar */
 
 .skill-progress {
   border-width: 1px;
@@ -122,9 +120,8 @@ section::after {
 
 .skill-box {
   box-shadow: 1px 1px 5px 2px grey;
-
-  /*padding:10px;*/
   border-radius: 20px 0px 0px 20px;
+  padding: 5px;
 }
 
 .skill-name span {
@@ -139,20 +136,20 @@ section::after {
   width: 30%;
 }
 
-/*percentage for skills*/
+/* percentage for skills */
 .fifty-percent {
   height: inherit;
   width: 50%;
 }
 
-.eighty-five-percent {
-  height: inherit;
-  width: 85%;
-}
-
 .eighty-percent {
   height: inherit;
   width: 80%;
+}
+
+.eighty-five-percent {
+  height: inherit;
+  width: 85%;
 }
 
 .blue {
@@ -163,10 +160,6 @@ section::after {
   background-color: orange;
 }
 
-.light-purple {
-  background-color: purple;
-}
-
 .light-blue {
   background-color: lightblue;
 }
@@ -175,7 +168,11 @@ section::after {
   background-color: teal;
 }
 
-/*favourites section*/
+.light-purple {
+  background-color: #ec40ec;
+}
+
+/* favourites section */
 .col-2 {
   float: left;
   width: 45%;
@@ -207,7 +204,7 @@ section::after {
   color: aqua;
 }
 
-/*portfolio section*/
+/* portfolio section */
 #portfolio .col-3 {
   width: 31.7%;
   margin: 10px;
@@ -246,17 +243,15 @@ section::after {
   text-align: center;
 }
 
-/*display: none;*/
-/*font-size: 1.5rem;*/
-
 .portfolio-img:hover {
   box-shadow: 1px 1px 1px lightseagreen;
 }
 
 .portfolio-img:hover .portfolio-text {
-  background-color: grey;
+  background-color: #8bf15c;
   opacity: 0.5;
   color: white;
+  cursor: pointer;
 }
 
 .text-right {
