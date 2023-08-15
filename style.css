@@ -224,6 +224,8 @@ section::after {
   background-repeat: no-repeat;
   margin: 10px;
   position: relative;
+  width: 390px;
+  height: 312px;
 }
 
 .portfolio-img img {
@@ -234,9 +236,9 @@ section::after {
 .portfolio-text {
   transition: all 0.5s ease-in-out;
   position: absolute;
-  height: 100%;
+  width: 370px;
+  height: 292px;
   color: transparent;
-  width: 100%;
   top: 0;
   left: 0;
   padding: 10px;
