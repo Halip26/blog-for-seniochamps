@@ -184,6 +184,7 @@ section::after {
   width: 500px;
   border: 2px dashed darkblue;
   height: 500px;
+  border-radius: 15px;
 }
 
 #favourites span {
