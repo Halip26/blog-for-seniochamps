@@ -204,6 +204,9 @@ section::after {
 .education-details h3 {
   color: aqua;
 }
+.education-details p {
+  margin: 0 20px 10px 20px;
+}
 
 /* portfolio section */
 #portfolio .col-3 {
@@ -243,6 +246,10 @@ section::after {
   left: 0;
   padding: 10px;
   text-align: center;
+}
+
+.portfolio-text p {
+  margin-top: 30%;
 }
 
 .portfolio-img:hover {
